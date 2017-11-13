@@ -1,0 +1,236 @@
+body{
+	background-color:#fff;
+	    color:black;
+	}
+	/*navbar*/
+	.navbar-inverse {
+   background-color:#fff;
+	    color:black;
+		padding:25px;
+		padding-bottom:40px;
+		border:none;
+}
+ 
+.icon-success {
+    color:#d9b348;
+	font-size:38px;
+	-webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+.navbar-inverse .navbar-brand {
+    color:black;
+	font-size:20px;
+	letter-spacing:3px;
+}
+.navbar-inverse .navbar-brand span {
+     letter-spacing:3px;
+	font-size:10px;
+	color:rgba(218, 214, 26, 0.69);
+}
+ 
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color:#d9b348;
+}
+.navbar-inverse .navbar-nav > li > a,.navbar-inverse .navbar-brand:hover {
+    color: black;
+}
+.navbar-inverse .navbar-nav > li > a:hover{ color:#d9b348;}
+ /*vidio*/
+.ved{margin-bottom:20px;}
+.overlay-desc1 {
+   
+  position: absolute;
+  top:250px; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-desc2 {
+   
+  position: absolute;
+  top:650px;
+  right: 0;
+  bottom: 0; 
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-desc1 h1 {
+  color: white;
+  font-family: 'Nobile', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+  font-weight:bold;
+   
+}
+.overlay-desc2 p{
+	color: white;
+  font-family: 'Nobile', sans-serif;
+   color: white;
+  text-align: center;
+  font-weight:bold;
+  font-size: 1vw;
+  letter-spacing:4px;
+  }
+.textbook h3{padding-top:40px;
+font-weight:bold;
+letter-spacing:1px;
+}
+.textbook .lead
+{padding-top:10px;
+font-size:16px;
+  line-height:30px;
+
+}
+.textbook .lead a
+{color:#d9b348}
+.textbook img{margin-left:50px;border:none}
+.textbook p .btn{background:#FFF;
+color:black
+;border-color:black;
+width:200px;
+height:40px;
+font-weight:bold}
+.textbook p span{font-size:15px;}
+/*five color*/
+.color img{
+	border:0 solid #fff;
+	border-radius:50%;
+	 
+	margin-left:32px;
+	
+}
+.color p{font-weight:bold;} 
+ 
+.color .col-lg-2 {
+    width: 19.666667%;
+}
+
+/*section feature*/
+.feature{background:#f1f1f1; margin-bottom:-12px;}
+.feature h3{
+	letter-spacing:18px;
+	color:#696969;
+	font-weight:bold;
+	padding:100px;
+}
+
+.feature h4{
+	color:#000000;
+	font-weight:bold;
+}
+.feature p{
+	
+	color:#000000;
+	line-height:30px;
+}
+ .reading_plans{
+	 background:#f1f1f1;
+	 padding-right:1px;
+	 padding-left:1px;
+	padding-top:35px;
+	 padding-bottom:1px;
+	 margin-top:0;
+ }
+
+ .reading_plane{
+	background:#fefefe;
+    margin-right: 48px;
+    margin-left: 75px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+	padding-left:15px;
+	padding-right:66px;
+	padding-bottom:15px;
+	padding-top:70px;
+ }
+.reading_plane p{
+	font-size:16px;
+	letter-spacing:2px;
+	
+	
+}
+.reading_plane h2{font-weight:bold;}
+.three_photo{
+	margin-right: 48px;
+    margin-left: 75px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+	padding-left:15px;
+	padding-right:66px;
+	padding-bottom:15px;
+	padding-top:70px;
+}
+ .paragrapg h3{
+	 padding;30px;
+	 font-weight:bold;
+ }
+.paragrapg p{
+	font-size:16px;
+	padding-left:300px;
+	padding-right:300px;
+	line-height:30px;
+	}
+.vedios  {
+	background: black;
+    color: #ffffff;
+    
+    padding-top: 1px;
+    padding-bottom: 60px;
+     
+    
+	
+}
+.vedios h2{
+	background: black;
+    color: #ffffff;
+    padding-left: 60px;
+    padding-right: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+	margin-bottom:0;
+	letter-spacing:28px;
+	font-weight:bold;
+	padding:75px;
+}
+.vedios p{
+	padding-left: 180px;
+     
+}
+
+.testimonials{
+ background:url('../image/bg.jpg') no-repeat fixed center center;
+ -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+	padding-top:40px;
+	padding-bottom:300px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 7px;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+    top: 170px;
+}
+.general{
+	background:#f1f1f1;
+}
+.general h2{
+	color:#696969;
+	letter-spacing:3px;
+	padding:60px;
+	margin-top:0;
+}
+
